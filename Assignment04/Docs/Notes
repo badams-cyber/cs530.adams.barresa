@@ -1,0 +1,4 @@
+##-aes256 in an encryption algorithm used to encryption your private key.
+##The public key can be shared with anyone where the private key has to have a passphrase or is encrypted so that not just anyone can access it.
+##They are used when a quick encryption for an internal network.  A file that doesn't necessarily need encryption but the organization would like the extra security.
+##The decrypted file should look the same as the encrypted file because it's contents are exactly the same, it has just been made more secure using decryption.
