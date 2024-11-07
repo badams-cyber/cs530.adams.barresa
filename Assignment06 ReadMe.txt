@@ -13,9 +13,15 @@ A Python implementation of a basic traceroute tool using the "scapy" library.
 python tracert.py google.com -m 20 -t 3
 
 ### Limitations 
-	**8. Test Cases**
+	**Test Cases**
 
 Run the program with:
-1. A reachable domain like 'google.com':
+1. A reachable domain 'google.com':
 	'''bash
 	python.tracert.py google.com
+2. A reachable domain 'internet.com':
+	'''bash
+	python tracert.py google.com
+3. A reachable domain 'scentsy.com':
+	'''bash
+	python tracer.py scentsy.com
